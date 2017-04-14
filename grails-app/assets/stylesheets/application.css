@@ -1,0 +1,87 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require_self
+*/
+
+
+body {
+	background: url(../images/Login_logo_stacked.svg) no-repeat, 
+              url(../images/Hacking-Program-Wallpaper-Desktop.jpg) no-repeat;
+    -webkit-background-size: 3000px 1500px;
+    -moz-background-size: 3000px 1500px;
+    -o-background-size: 3000px 1500px;
+    background-size: 3000px 1500px;
+    background-position: center top;
+}
+
+.center_div{
+    margin: 0 auto;
+    width:40%;
+    background-color: transparent;
+
+}
+
+
+.vertical-align {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  background-color: rgba(255,255,255,0.8);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+  * { box-sizing: border-box; }
+  li, ul { 
+    padding: 0; 
+    margin:0;
+  }
+
+  #slot li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 6px 4px 6px 6px;
+    line-height: normal;
+    height: 30px;
+    overflow: hidden;
+  }
+
+.absolute {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+  #slot_wrapper {
+    position: relative;
+  }
+
+.spaces {
+  position: relative;
+}
+
+
+  .jSlots-wrapper {
+    margin: 4px 0;
+      overflow: hidden; /* to hide the magic */
+      height: 29px; /* whatever the height of your list items are */
+      width: 300px;
+      position: absolute;
+      top: 0px;
+      display: none;
+  }
+  #slot {
+    display: none;
+  }
